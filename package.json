@@ -1,0 +1,25 @@
+{
+  "name": "SHIELD",
+  "version": "0.0.0",
+  "description": "A node HTTPS reverse proxy server with ability to capture and edit request data",
+  "main": "./lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjeevir/SHIELD.git"
+  },
+  "keywords": [
+    "reverse-proxy",
+    "SSL",
+    "HTTPS-reverse-proxy"
+  ],
+  "author": "sanjeevi <sanjeevi_nightwing@yahoo.com>",
+  "contributors": ["Anusha <anu1238@gmail.com>"],
+  "license": "The MIT License (MIT)",
+  "bugs": {
+    "url": "https://github.com/sanjeevir/SHIELD/issues"
+  },
+  "homepage": "https://github.com/sanjeevir/SHIELD"
+}
