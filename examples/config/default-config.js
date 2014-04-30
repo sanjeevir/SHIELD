@@ -12,8 +12,10 @@ exports.options = {
 The address in the 'bind' option will be listened upon. If not specified it defaults to:
 	
 	0.0.0.0
+    
+This config value is dummy in v0.0.0. Will be used in future relase versions. In v0.0.0 bind host will be set to 0.0.0.0
 */
-exports.bind = new Array("54.251.35.41", "127.0.0.1");
+exports.bind = ["54.251.35.41", "127.0.0.1"];
 
 /*
 The port in the 'port' option will be listened upon. If not specified, it defaults to :
@@ -23,7 +25,7 @@ The port in the 'port' option will be listened upon. If not specified, it defaul
 exports.port = 443;
 
 /*
-Path of the self signing private key and certificate files [relative to the server.js file].
+Path of the self signing private key and certificate files (relative to the server.js file/absolute path).
 */
-exports.private-key-file = "../examples/certs/privatekey.pem";
-exports.certificate-file = "../examples/certs/certificate.pem";
+exports.privatekeyfile = "../examples/certs/privatekey.pem";
+exports.certificatefile = "../examples/certs/certificate.pem";
