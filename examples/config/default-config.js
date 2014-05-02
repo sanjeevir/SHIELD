@@ -9,10 +9,11 @@ exports.options = {
 };
 
 /* 
-The address in the 'bind' option will be listened upon. If not specified it defaults to:
+The IP address / domain name in the 'bind' option will be listened upon. If not specified it defaults to:
 	
 	0.0.0.0
     
+Also this value is used in the URL encoding for the reverse proxy server. Refer to helper.js encodeURL method.
 This config value is dummy in v0.0.0. Will be used in future relase versions. In v0.0.0 bind host will be set to 0.0.0.0.
 */
 exports.bind = ["54.251.35.41", "127.0.0.1"];
