@@ -38,3 +38,6 @@ exports.log = {
     "maxLogSize": 20480,
     "backups": 10
 };
+
+//TODO how many such files do u think you can have? Think of a better way to whitelist URLs !!!
+exports.URLRewriteWhiteList = ["jquery.js", "jquery.min.js", "bootstrap.css", "bootstrap.min.css"];
